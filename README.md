@@ -1,16 +1,57 @@
-# React + Vite
+# Trading-App – Paper Trading Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based paper trading simulator designed to help users practice stock market trading using virtual money without risking real capital.
 
-Currently, two official plugins are available:
+## Live Demo
+https://trading-app-lilac-eight.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## GitHub Repository
+https://github.com/roshansingh14566-rgb/Trading-App
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Indian and US stock market sections
+- Virtual starting balance of ₹10,00,000
+- Buy and Sell stock functionality
+- TradingView stock charts
+- Stock watchlist
+- Portfolio dashboard
+- Holdings and transaction history
+- Profit and Loss tracking
+- LocalStorage-based data persistence
+- Responsive trading interface
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- React Router DOM
+- TradingView Widget
+- Browser LocalStorage
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   `git clone https://github.com/roshansingh14566-rgb/Trading-App.git`
+
+2. Open the project folder:
+
+   `cd Trading-App`
+
+3. Install dependencies:
+
+   `npm install`
+
+4. Start the development server:
+
+   `npm run dev`
+
+5. Open the local URL shown in your terminal.
+
+## Disclaimer
+
+This project is developed for educational and practice purposes only. It uses virtual funds and simulated trading transactions. It does not execute real stock market orders or provide financial advice.
